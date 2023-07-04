@@ -311,3 +311,130 @@ header{
         margin-top: 50px;
     }
 }
+footer{
+    background-image: url("/img/footerimg.jpg");
+    background-position: 0px -300px;
+    background-size: cover;
+    color: rgba(255, 255, 255, 1);
+    padding-top: 120px;
+    box-shadow: rgba(0,0,0,0.5) 0 0 0 10000px inset;
+    .cmpny-social{
+        p{
+            font-family: Roboto;
+            font-size: 14px;
+        }
+        ul{
+            margin-left: -35px;
+            li{
+                list-style: none;
+                display: inline-block;
+                margin-right: 12px;
+            }
+        }
+    }
+    .cmpny-options{
+        border-left: 1px solid rgba(255, 255, 255, 0.26);
+        border-right: 1px solid rgba(255, 255, 255, 0.26);
+        margin-left: 70px;
+        ul{
+            margin-top: -5px;
+            li{
+                list-style: none;
+                margin-top: 4px;
+                font-size: 16px;
+                a{
+                    text-decoration: none;
+                    font-family: Roboto Condensed;
+                    color: rgba(255, 255, 255, 1);
+                }
+            }
+        }
+    }
+    .cmpny-logo{
+        text-align: center;
+        img{
+            margin-top: -20px;
+        }
+    }
+    .cmpny-info{
+        border-left: 1px solid rgba(255, 255, 255, 0.26);
+        padding-left: 40px;
+        h1{
+            text-transform: uppercase;
+            font-family: Inter;
+            font-size: 28px;
+            font-weight: bold;
+        }
+        p{
+            font-size: 14px;
+            font-family: Roboto;
+            margin-left: 28px;
+            margin-top: 20px;
+        }
+        #location{
+            position: relative;
+            &::before{
+                content: '';
+                background-image: url("/img/locationicon.png");
+                width: 20px;
+                height: 20px;
+                position: absolute;
+                left: -30px;
+                top: 3px;
+            }
+        }
+        #number{
+            position: relative;
+            &::before{
+                content: '';
+                background-image: url("/img/phoneicon.png");
+                width: 20px;
+                height: 20px;
+                position: absolute;
+                left: -30px;
+                top: 0;
+            }
+        }
+        #email{
+            position: relative;
+            &::before{
+                content: '';
+                background-image: url("/img/emailicon.png");
+                width: 20px;
+                height: 20px;
+                position: absolute;
+                left: -30px;
+                top: 1px;
+            }
+        }
+    }
+    .copyright-footer{
+        display: flex;
+        font-family: Roboto;
+        padding: 20px 0px;
+        margin-top: 70px;
+        box-shadow: rgba(0,0,0,0.7) 0 0 0 10000px inset;
+        #copyright{
+            color: rgba(255, 255, 255, 0.3);
+            margin-left: 65px;
+            text-decoration: none;
+        }
+        #privatnost{
+            color: rgba(255, 255, 255, 0.5);
+            margin-left:305px;
+        }
+        #uslovi{
+            color: rgba(255, 255, 255, 0.5);
+            margin-left:115px;
+        }
+        #poweredby{
+            color: rgba(255, 255, 255, 0.3);
+            text-decoration: none;
+            margin-left: 420px;
+            span{
+                text-decoration: underline;
+                color: rgba(255, 255, 255, 0.5);
+            }
+        }
+    }
+}

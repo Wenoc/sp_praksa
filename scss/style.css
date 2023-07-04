@@ -309,4 +309,130 @@ header .nav-2 ul li a span {
   font-size: 16px;
   padding: 10px 15px;
   margin-top: 50px;
+}
+
+footer {
+  background-image: url("/img/footerimg.jpg");
+  background-position: 0px -300px;
+  background-size: cover;
+  color: rgb(255, 255, 255);
+  padding-top: 120px;
+  box-shadow: rgba(0, 0, 0, 0.5) 0 0 0 10000px inset;
+}
+footer .cmpny-social p {
+  font-family: Roboto;
+  font-size: 14px;
+}
+footer .cmpny-social ul {
+  margin-left: -35px;
+}
+footer .cmpny-social ul li {
+  list-style: none;
+  display: inline-block;
+  margin-right: 12px;
+}
+footer .cmpny-options {
+  border-left: 1px solid rgba(255, 255, 255, 0.26);
+  border-right: 1px solid rgba(255, 255, 255, 0.26);
+  margin-left: 70px;
+}
+footer .cmpny-options ul {
+  margin-top: -5px;
+}
+footer .cmpny-options ul li {
+  list-style: none;
+  margin-top: 4px;
+  font-size: 16px;
+}
+footer .cmpny-options ul li a {
+  text-decoration: none;
+  font-family: Roboto Condensed;
+  color: rgb(255, 255, 255);
+}
+footer .cmpny-logo {
+  text-align: center;
+}
+footer .cmpny-logo img {
+  margin-top: -20px;
+}
+footer .cmpny-info {
+  border-left: 1px solid rgba(255, 255, 255, 0.26);
+  padding-left: 40px;
+}
+footer .cmpny-info h1 {
+  text-transform: uppercase;
+  font-family: Inter;
+  font-size: 28px;
+  font-weight: bold;
+}
+footer .cmpny-info p {
+  font-size: 14px;
+  font-family: Roboto;
+  margin-left: 28px;
+  margin-top: 20px;
+}
+footer .cmpny-info #location {
+  position: relative;
+}
+footer .cmpny-info #location::before {
+  content: "";
+  background-image: url("/img/locationicon.png");
+  width: 20px;
+  height: 20px;
+  position: absolute;
+  left: -30px;
+  top: 3px;
+}
+footer .cmpny-info #number {
+  position: relative;
+}
+footer .cmpny-info #number::before {
+  content: "";
+  background-image: url("/img/phoneicon.png");
+  width: 20px;
+  height: 20px;
+  position: absolute;
+  left: -30px;
+  top: 0;
+}
+footer .cmpny-info #email {
+  position: relative;
+}
+footer .cmpny-info #email::before {
+  content: "";
+  background-image: url("/img/emailicon.png");
+  width: 20px;
+  height: 20px;
+  position: absolute;
+  left: -30px;
+  top: 1px;
+}
+footer .copyright-footer {
+  display: flex;
+  font-family: Roboto;
+  padding: 20px 0px;
+  margin-top: 70px;
+  box-shadow: rgba(0, 0, 0, 0.7) 0 0 0 10000px inset;
+}
+footer .copyright-footer #copyright {
+  color: rgba(255, 255, 255, 0.3);
+  margin-left: 65px;
+  text-decoration: none;
+}
+footer .copyright-footer #privatnost {
+  color: rgba(255, 255, 255, 0.5);
+  margin-left: 305px;
+}
+footer .copyright-footer #uslovi {
+  color: rgba(255, 255, 255, 0.5);
+  margin-left: 115px;
+}
+footer .copyright-footer #poweredby {
+  color: rgba(255, 255, 255, 0.3);
+  text-decoration: none;
+  margin-left: 420px;
+}
+footer .copyright-footer #poweredby span {
+  text-decoration: underline;
+  color: rgba(255, 255, 255, 0.5);
 }/*# sourceMappingURL=style.css.map */
