@@ -1,0 +1,631 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header{
+    .nav-1{
+        background-color: rgba(217, 217, 217, 1);
+        ul{
+            display: flex;
+            float: right;
+            margin: 31px 105px;
+            li{
+                margin: 0px 10px;
+                list-style: none;
+                a{
+                    color: rgba(89, 89, 89, 1);
+                    font-family: Roboto;
+                }
+            }
+            #srpski{
+                color: rgba(136, 135, 135, 1);
+                text-decoration: none;
+            }
+        }
+        img{
+            margin: 17px 105px;
+        }
+    }
+    .nav-2{
+        background-color: white;
+        ul{
+            display: inline-flex;
+            margin-left: 290px;
+            margin-top: 0;
+            margin-bottom: 5px;
+            #kontakt{
+                border-right: 1px solid rgba(136, 135, 135, 0.4);
+            }
+           li{
+            //margin:0px  35px;
+            list-style: none;
+            text-align: center;
+            border-left: 1px solid rgba(136, 135, 135, 0.4);
+            padding: 0px 35px;
+            a{
+                text-decoration: none;
+                color: rgba(0, 0, 0, 1);
+                font-size: 16px;
+                font-family: Roboto Condensed;
+                span{
+                    color: rgba(71, 71, 71, 1);
+                    font-size: 12px;
+                }
+            }
+            
+           }
+        }
+    }
+}
+.video-slider img{
+    width: 100%;
+    height: 40rem;
+}
+
+
+.aboutsec{
+    display: flex;
+    margin: 70px 0px;
+    .about-section{
+        margin-left: auto;
+        margin-right: auto;
+        .left-about{
+            float: left;
+            width: 50%;
+        }
+        .right-about{
+            float: right;
+            width: 50%;
+        padding-top: 38px;
+        width: 40%;
+        float: right;
+        h1{
+            font-size: 42px;
+            color: rgba(48, 48, 48, 1);
+            position: relative;
+            font-family: Roboto;
+            font-weight: bold;
+            &::after{
+                content: "";
+                position: absolute;
+                background-color: rgba(191, 15, 15, 1);
+                height: 6px;
+                width: 137px;
+                left: 0;
+                bottom: -25px;
+            }
+            
+        }
+        h3{
+            margin-top: 50px;
+            color: rgba(71, 71, 71, 1);
+            font-family: Inter;
+            position: relative;
+            &::after{
+                content: "";
+                position: absolute;
+                background-color: rgba(196, 196, 196, 0.4);
+                height: 3px;
+                width: 524px;
+                left: 0;
+                bottom: -35px;
+            }
+        }
+        p{
+            margin-top: 75px;
+            color: rgba(71, 71, 71, 1);
+            font-family: Roboto;
+            font-size: 14px;
+        }
+        button{
+            background-color: rgba(191, 15, 15, 1);
+            color: rgba(255, 255, 255, 1);
+            font-family: Roboto;
+            font-size: 16px;
+            padding: 10px 20px;
+            margin-top: 50px;
+        }
+    }}
+}
+.distribucija-text{
+    background-image: url("/img/dvgprevoz.jpeg");
+    background-attachment: fixed;
+    text-align: center;
+    color: white;
+    padding: 250px 0px;
+    background-size: cover;
+    text-transform: uppercase;
+    font-family: Roboto;
+    box-shadow: rgba(0,0,0,0.4) 0 0 0 10000px inset;
+    margin-bottom: 70px;
+    h1{
+        letter-spacing: 7px;
+        font-weight: bold;
+        position: relative;
+        &::after{
+            content: "";
+            position: absolute;
+            background-color: rgba(191, 15, 15, 1);
+            height: 6px;
+            width: 137px;
+            left: 52rem;
+            bottom: -25px;
+        }
+    }
+}
+.information-section{
+    h4{
+        color: rgba(71, 71, 71, 1);
+        font-family: Roboto;
+        font-size: 24px;
+        text-transform: uppercase;
+        margin-top: 20px;
+        position: relative;
+        &::after{
+            content: "";
+            position: absolute;
+            background-color: rgba(191, 15, 15, 1);
+            height: 2px;
+            width: 50px;
+            left: 0;
+            bottom: -8px;
+        }
+    }
+}
+.number-section{
+    padding-top: 150px;
+    #number-naslov{
+        text-align: center;
+        font-size: 42px;
+        color: rgba(48, 48, 48, 1);
+    }
+    #number-pod{
+        text-align: center;
+        font-family: inter;
+        font-size: 28px;
+        color: rgba(71, 71, 71, 1);
+        position: relative;
+        &::after{
+            content: "";
+            position: absolute;
+            background-color: rgba(191, 15, 15, 1);
+            height: 6px;
+            width: 137px;
+            left: 53rem;
+            bottom: -30px;
+        }
+    }
+    .brojke{
+        margin-top: 100px;
+        background-image: url("/img/brojke.png");
+        padding: 100px 0px;
+        text-align: center;
+        color: white;
+        h1{
+            font-weight: bold;
+            font-family: Inter;
+            font-size: 46px;
+        }
+        p{
+            color: rgba(255, 255, 255, 1);
+            font-family: Inter;
+            font-size: 18px;
+        }
+    }
+}
+.proizvodi-section{
+    position: relative;
+    padding-top: 120px;
+    padding-bottom: 120px;
+    background-color: rgba(244, 244, 244, 1);
+    h2{
+        color: rgba(71, 71, 71, 1);
+        font-size: 24px;
+        font-family: Roboto;
+        text-transform: uppercase;
+        margin-left: 30px;
+        margin-top: 18px;
+        position: relative;
+        &::after{
+            content: "";
+            position: absolute;
+            background-color: rgba(191, 15, 15, 1);
+            height: 2px;
+            width: 54px;
+            left: 0;
+            bottom: -8px;
+        }
+    }
+    .swiper-wrapper{
+        img{
+            width:  200px;
+            height: 200px;
+            object-fit: cover;
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+            margin-top: 20px;
+            
+        }
+    }
+    h1{
+        text-align: center;
+        color: rgba(71, 71, 71, 1);
+        font-size: 28px;
+        font-family: Inter;
+        position: relative;
+        &::after{
+            content: "";
+            position: absolute;
+            background-color: rgba(196, 196, 196, 0.4);
+            height: 3px;
+            width: 524px;
+            left: 24rem;
+            bottom: -55px;
+        }
+    }
+    p{
+        color: rgba(71, 71, 71, 1);
+        text-align: center;
+        font-size: 14px;
+        margin-top: 120px;
+    }
+    .swiper{
+        height: 23rem;
+        margin-top: 80px;
+        .swiper-slide{
+            background-color: white;
+        }
+        .swiper-button-next{
+            color: black;
+        }
+        .swiper-button-prev{
+            color: black;
+        }
+    }
+    #proizvodislika{
+        position: absolute;
+        bottom: -25px;
+        left: 6px;
+    }
+}
+
+.swiper {
+    width:100%;
+    height: 40rem;
+    .swiper-button-prev{
+        color: white;
+        font-weight: bold;
+    }
+    .swiper-button-next{
+        color: white;
+        font-weight: bold;
+    }
+  }
+
+.brendovi-section{
+    padding: 100px 0px;
+    text-align: center;
+    h1{
+        color: rgba(71, 71, 71, 1);
+        font-family: Inter;
+        font-size: 28px;
+        text-align: center;
+        position: relative;
+        &::after{
+            content: "";
+            position: absolute;
+            background-color: rgba(196, 196, 196, 0.4);
+            height: 3px;
+            width: 524px;
+            left: 24rem;
+            bottom: -55px;
+        }
+    }
+    .brands{
+        margin-top: 110px;
+        text-align: center;
+        p{
+            color: rgba(71, 71, 71, 1);
+            font-family: Inter;
+            font-size: 18px;
+        }
+    }
+    button{
+        background-color: rgba(191, 15, 15, 1);
+        color: rgba(255, 255, 255, 1);
+        font-family: Roboto;
+        font-size: 16px;
+        padding: 10px 15px;
+        margin-top: 50px;
+    }
+}
+footer{
+    background-image: url("/img/footerimg.jpg");
+    background-position: 0px -300px;
+    background-size: cover;
+    color: rgba(255, 255, 255, 1);
+    padding-top: 120px;
+    box-shadow: rgba(0,0,0,0.5) 0 0 0 10000px inset;
+    .cmpny-social{
+        p{
+            font-family: Roboto;
+            font-size: 14px;
+        }
+        ul{
+            margin-left: -35px;
+            li{
+                list-style: none;
+                display: inline-block;
+                margin-right: 12px;
+            }
+        }
+    }
+    .cmpny-options{
+        border-left: 1px solid rgba(255, 255, 255, 0.26);
+        border-right: 1px solid rgba(255, 255, 255, 0.26);
+        margin-left: 70px;
+        ul{
+            margin-top: -5px;
+            li{
+                list-style: none;
+                margin-top: 4px;
+                font-size: 16px;
+                a{
+                    text-decoration: none;
+                    font-family: Roboto Condensed;
+                    color: rgba(255, 255, 255, 1);
+                }
+            }
+        }
+    }
+    .cmpny-logo{
+        text-align: center;
+        img{
+            margin-top: -20px;
+        }
+    }
+    .cmpny-info{
+        border-left: 1px solid rgba(255, 255, 255, 0.26);
+        padding-left: 40px;
+        h1{
+            text-transform: uppercase;
+            font-family: Inter;
+            font-size: 28px;
+            font-weight: bold;
+        }
+        p{
+            font-size: 14px;
+            font-family: Roboto;
+            margin-left: 28px;
+            margin-top: 20px;
+        }
+        #location{
+            position: relative;
+            &::before{
+                content: '';
+                background-image: url("/img/locationicon.png");
+                width: 20px;
+                height: 20px;
+                position: absolute;
+                left: -30px;
+                top: 3px;
+            }
+        }
+        #number{
+            position: relative;
+            &::before{
+                content: '';
+                background-image: url("/img/phoneicon.png");
+                width: 20px;
+                height: 20px;
+                position: absolute;
+                left: -30px;
+                top: 0;
+            }
+        }
+        #email{
+            position: relative;
+            &::before{
+                content: '';
+                background-image: url("/img/emailicon.png");
+                width: 20px;
+                height: 20px;
+                position: absolute;
+                left: -30px;
+                top: 1px;
+            }
+        }
+    }
+    .copyright-footer{
+        display: flex;
+        font-family: Roboto;
+        padding: 20px 0px;
+        margin-top: 70px;
+        box-shadow: rgba(0,0,0,0.7) 0 0 0 10000px inset;
+        #copyright{
+            color: rgba(255, 255, 255, 0.3);
+            margin-left: 65px;
+            text-decoration: none;
+        }
+        #privatnost{
+            color: rgba(255, 255, 255, 0.5);
+            margin-left:305px;
+        }
+        #uslovi{
+            color: rgba(255, 255, 255, 0.5);
+            margin-left:115px;
+        }
+        #poweredby{
+            color: rgba(255, 255, 255, 0.3);
+            text-decoration: none;
+            margin-left: 420px;
+            span{
+                text-decoration: underline;
+                color: rgba(255, 255, 255, 0.5);
+            }
+        }
+    }
+}
+#menuopen{
+    display: none;
+}
+#menuclose{
+    display: none;
+}
+@media only screen and (max-width:375px)
+{
+    // p{
+    //     &::after{
+    //         display: none;
+    //     }
+    // }
+    h1::after{
+        display: none;
+    }
+
+    // ---------------------------------------
+
+    header{
+        .nav-2{
+           ul{
+            display: none;
+            z-index: 99;
+            /* left: -199px; */
+            position: absolute;
+            right: 0px;
+            background: white;
+            width: 100%;
+            padding: 10px 0px;
+            li{
+                border-left: none;
+                border-right: none;
+                margin: 5px 0px;
+                border-bottom: 1px solid rgba(14, 14, 14, 0.26);
+            }
+           }
+        }
+        .nav-1{
+            width: 100%;
+            position: relative;
+            img{
+                margin: 17px 15px;
+            }
+            ul{
+                margin: 10px  0px;
+                float: left;
+            }
+            #menuopen{
+                display: block;
+                position: absolute;
+                top: 25px;
+                right: 25px;
+                font-size: 30px;
+            }
+            #menuclose{
+                display: none;
+                position: absolute;
+                top: 25px;
+                right: 25px;
+                font-size: 30px;
+            }
+        }
+    }
+
+    .about-section{
+        .left-about{
+            width: 100% !important;
+            img{
+                width: 100%;
+            }
+        }
+        .right-about{
+            width: 100% !important;
+            text-align:  center !important;
+        }
+        h3{
+            &::after{
+                width: 300px !important;
+            }
+        }
+        h1{
+            margin-bottom: -20px;
+        }
+    }
+    .information-section{
+        padding-top: 70px;
+        IMG{
+            width: 100%
+        };
+        h4{
+            margin-bottom: 30px;
+            margin-top: 5px;
+        }
+    }
+    .number-section{
+        padding-top: 90px;
+        #number-pod{
+            margin-bottom: -50px;
+            &::after{
+                left: 92px;
+            }
+        }
+    }
+
+    .proizvodi-section{
+        h1{
+            margin-bottom: -90px !important;
+            &::after{
+                left: 0;
+                width: 300px;
+                bottom: -40px;
+            }
+        }
+    }
+    
+    .brendovi-section{
+        h1{
+            margin-bottom: -85px;
+            &::after{
+                left: 0;
+                width: 300px;
+            }
+        }
+    }
+    footer{
+        background-position: 0px 0px;
+
+        .copyright-footer{
+           display: inline-block;
+           margin-top: 30px !important;
+           a{
+            margin-left: 0px !important;
+            display: block;
+            text-align: center;
+           }
+        }
+        img{
+        margin-top: -45px !important;
+        }
+        .cmpny-info{
+         border-left: none !important;
+         border-bottom: 1px solid rgba(255, 255, 255, 0.26);
+           margin-top: 30px;
+           p{
+            margin-left: 60px;
+           }
+        }
+        .cmpny-options{
+            margin-top: 20px;
+            border-right: none;
+        }
+        .cmpny-social{
+            margin-top: 20px;
+            text-align: center;
+            p{
+                margin-bottom: 30px;
+            }
+        }
+    }
+}
